@@ -24,7 +24,7 @@ node{
 '''
    }*/
    stage('Deploy to Tomcat'){
-     bat "copy target\\ICICI_bnk_project.war \"${tomcatWeb}\\ICICI_bnk_project.war\""
+     bat "copy target\\ICICI_bnk_project.jar \"${tomcatWeb}\\ICICI_bnk_project.jar\""
    }
       stage ('Start Tomcat Server') {
          sleep(time:5,unit:"SECONDS") 
