@@ -19,4 +19,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<build>
+    <finalName>ICICI_bnk_project</finalName>
+  </build>
 </project>
